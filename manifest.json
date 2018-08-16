@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "clarifAI Image Tagger",
+  "description": "This extension displays keywords for any given image.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+          "scripts": ["jquery.js", "clarifai.js"]
+  }
+}
